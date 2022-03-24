@@ -1,4 +1,5 @@
 import logo from './logo.svg';
+import kavi from './kavi.jpeg';
 import './App.css';
 import Button from '@mui/material/Button';
 function App() {
@@ -20,7 +21,9 @@ function App() {
     //   </header>
     // </div>
 <div className='md'>
-  <div className='imagediv'></div>
+  <div className='imagediv'>
+  <img src={kavi} className="kavi" alt="mypic" />
+  </div>
     <div className='namediv'><h1>Kavitha santhanam </h1>
 
       <div className='position'> <h3>Fullstack developer</h3></div>
